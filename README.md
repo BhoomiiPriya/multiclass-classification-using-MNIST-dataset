@@ -1,8 +1,16 @@
-# multiclass-classification-using-MNIST-dataset
+# Multiclass Classification Using MNIST Dataset
 
 This project implements a multiclass classification model using an Artificial Neural Network (ANN) to recognize handwritten digits (0–9) from the MNIST dataset. The ANN is trained from scratch using supervised learning techniques to classify 28x28 grayscale images into one of ten classes.
 
-Model Architecture
+#Project Overview
+
+Dataset: MNIST
+
+Task: Multiclass classification (10 classes)
+
+Approach: ANN
+
+#Model Architecture
 Input layer: 784 neurons (28x28 pixels flattened)
 
 Hidden layers: 1 or more fully connected layers with ReLU activation
@@ -13,10 +21,4 @@ Loss Function: Categorical Cross-Entropy (but here i have used sparse categorica
 
 Optimizer: i have used adam optimizer(SGD, Adam — specify which one you used)
 
-Project Overview
 
-Dataset: MNIST
-
-Task: Multiclass classification (10 classes)
-
-Approach: ANN
